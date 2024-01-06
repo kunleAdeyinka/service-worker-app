@@ -33,7 +33,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn ReactJS
         </a>
       </header>
       <ToastContainer />
