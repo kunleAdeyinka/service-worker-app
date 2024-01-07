@@ -5,6 +5,8 @@ import { useServiceWorker } from "./hooks/useServiceWorker";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import CarList from "./components/CarList";
+
 function App() {
   const { waitingWorker, showReload, reloadPage } = useServiceWorker();
 
@@ -27,6 +29,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <p>Testing the service worker stuff</p>
+        <p>Using github pages but this aint working</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -36,7 +39,8 @@ function App() {
           Learn ReactJS
         </a>
       </header>
-      <ToastContainer />
+      <CarList />
+      <ToastContainer autoClose={8000} />
     </div>
   );
 }
