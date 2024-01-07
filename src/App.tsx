@@ -30,14 +30,6 @@ function App() {
         </p>
         <p>Testing the service worker stuff</p>
         <p>Using github pages but this aint working</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn ReactJS
-        </a>
       </header>
       <CarList />
       <ToastContainer autoClose={8000} />

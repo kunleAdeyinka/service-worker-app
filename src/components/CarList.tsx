@@ -12,14 +12,14 @@ const CarList = () => {
   ]);
 
   return (
-    <>
+    <div className="App">
       <h1>What cars do we have in the garage?</h1>
       <ul>
         {cars.map((car) => (
           <Car key={car.id} brand={car.brand} />
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 
